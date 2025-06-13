@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontier Admin</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="admin-panel">
+    <h2>H-Suite+ Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p style="color:red;text-align:center;">Username: FrontierAdministrationLogIn<br>Password: F9!r3$tW1ldBlueYonder</p>
+  </div>
+</body>
+</html>

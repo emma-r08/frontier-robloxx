@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontier Flight Map</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Leaflet CSS for map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+</head>
+<body>
+  <div class="header">
+    <h1>FRONTIER FLIGHT NETWORK</h1>
+  </div>
+
+  <div id="flight-map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('flight-map').setView([39.0, -98.0], 4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    
+    // Example flight DEN→MCO
+    L.polyline([[39.9, -104.7], [28.4, -81.3]], {color: '#FFB81C'})
+      .bindPopup("DEN → MCO")
+      .addTo(map);
+  </script>
+</body>
+</html>

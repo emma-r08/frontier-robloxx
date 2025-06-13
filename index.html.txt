@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontier Airlines Roblox | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>FRONTIER AIRLINES ROBLOX</h1>
+    <p>Fly Ahead with the Wildest Virtual Airline!</p>
+  </div>
+
+  <div class="section">
+    <h2>Welcome Aboard!</h2>
+    <p>Experience budget-friendly virtual travel with Frontier's animal-themed fleet.</p>
+    <img src="images/aircraft.png" alt="Frontier Aircraft" width="100%">
+  </div>
+
+  <div class="footer">
+    <a href="terms.html">Terms of Service</a> | 
+    <a href="classes.html">Travel Classes</a>
+  </div>
+</body>
+</html>
